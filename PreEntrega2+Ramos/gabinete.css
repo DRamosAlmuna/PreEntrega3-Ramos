@@ -1,0 +1,212 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo h1 {
+  margin-left: 10px;
+  order: 1;
+}
+
+#cuenta {
+  order: 1;
+  transition: transform 0.3s ease-out;
+}
+
+#cuenta a {
+  padding: 8px 16px;
+  background-color: #4f4f4f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#cuenta:hover {
+  transform: translateY(-10px);
+}
+
+.fondos{
+  background-color: #333 !important;
+  justify-content: center;
+  color: #fff !important;
+  display: flex;
+  padding: 0;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/*** interactividad del menu ***/
+
+#menu1{
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.enlace-menu:hover {
+  background-color: #555;
+}
+
+.imagmenu {
+  display: flex;
+  padding-left: 10px;
+}
+
+/*** Interacción de las cartas ***/
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #555;
+  transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+main h2 {
+  text-align: center;
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+main button {
+  padding: 10px 20px;
+  background-color:#555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+button:hover {
+transform: translateY(-10px);
+}
+
+/*** Inicio sesión ***/
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.login-section header {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: 2px solid #5f6062;
+  border-radius: 5px;
+}
+
+.login-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #56585a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.login-form button:hover {
+  transform: translateY(-10px);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+ 
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+.prueba{
+  border: orange 2px solid;
+  margin: orange;
+  color: #ccc;
+}
