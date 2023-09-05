@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: black;
   margin: 0;
@@ -16,7 +17,6 @@ header {
   display: flex;
   align-items: center;
 }
-
 #logo h1 {
   margin-left: 10px;
   order: 1;
@@ -26,7 +26,6 @@ header {
   order: 1;
   transition: transform 0.3s ease-out;
 }
-
 #cuenta a {
   padding: 8px 16px;
   background-color: #4f4f4f;
@@ -34,12 +33,11 @@ header {
   text-decoration: none;
   border-radius: 5px;
 }
-
 #cuenta:hover {
   transform: translateY(-10px);
 }
 
-.fondos{
+.fondos {
   background-color: #333 !important;
   justify-content: center;
   color: #fff !important;
@@ -49,9 +47,8 @@ header {
   border-radius: 5px;
 }
 
-/*** interactividad del menu ***/
-
-#menu1{
+/** Interactividad del menu **/
+#menu1 {
   list-style-type: none;
   display: flex;
 }
@@ -76,8 +73,7 @@ a {
   padding-left: 10px;
 }
 
-/*** Interacción de las cartas ***/
-
+/** Interacción de las cartas **/
 .card {
   width: 300px;
   border: 1px solid #ccc;
@@ -88,19 +84,28 @@ a {
   background-color: #555;
   transition: transform 0.3s ease-out;
 }
-
 .card:hover {
   transform: translateY(-10px);
 }
 
-main h2 {
-  text-align: center;
-}
+/** Contacto **/
 main {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   color: #fff;
+}
+main h2 {
+  text-align: center;
+}
+main button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
 }
 
 .formulario {
@@ -119,22 +124,11 @@ input, textarea {
   border-radius: 5px;
 }
 
-main button {
-  padding: 10px 20px;
-  background-color:#555;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s ease-out;
-}
-
 button:hover {
-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
-/*** Inicio sesión ***/
-
+/** Inicio sesion **/
 .login-section {
   flex: 1;
   display: flex;
@@ -143,7 +137,6 @@ transform: translateY(-10px);
   padding: 20px;
   justify-content: center;
 }
-
 .login-section header {
   margin-bottom: 20px;
 }
@@ -153,7 +146,6 @@ transform: translateY(-10px);
   flex-direction: column;
   align-items: center;
 }
-
 .login-form input {
   padding: 10px;
   margin-bottom: 10px;
@@ -161,7 +153,6 @@ transform: translateY(-10px);
   border: 2px solid #5f6062;
   border-radius: 5px;
 }
-
 .login-form button {
   margin-top: 10px;
   padding: 10px 20px;
@@ -172,7 +163,6 @@ transform: translateY(-10px);
   cursor: pointer;
   transition: transform 0.3s ease-out;
 }
-
 .login-form button:hover {
   transform: translateY(-10px);
 }
@@ -181,14 +171,11 @@ transform: translateY(-10px);
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
- 
 }
-
 .links a {
   text-decoration: none;
   color: #fff;
 }
-
 .links a:hover {
   text-decoration: underline;
 }
@@ -199,14 +186,9 @@ transform: translateY(-10px);
   justify-content: center;
   align-items: center;
 }
-
 .image-section img {
   max-width: 800px;
   border-radius: 5px;
 }
 
-.prueba{
-  border: orange 2px solid;
-  margin: orange;
-  color: #ccc;
-}
+/*# sourceMappingURL=styles.css.map */
